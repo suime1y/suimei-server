@@ -4,20 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>すめ鯖 Portal</title>
+  <!-- Google Fonts for modern typography -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <header class="site-header">
     <a class="site-logo" href="index.html">すめ鯖 Portal</a>
-
-    <nav class="nav">
-        <div class="dropdown">
-          <a href="members/sumesaba-members.html">参加者一覧</a>
-          <a href="guides/sumesaba-guide.html">導入ガイド</a>
-        </div>
+    <nav class="site-nav">
+      <a href="members/sumesaba-members.html" class="nav-link">参加者一覧</a>
+      <a href="guides/sumesaba-guide.html" class="nav-link">導入ガイド</a>
     </nav>
-    
   </header>
+
+  <main class="main-content">
+    <section class="hero-section">
+      <h1 class="hero-title">すめ鯖<br><span class="hero-accent">Portal</span></h1>
+      <p class="hero-subtitle">（すめ鯖）の公式ポータルサイトへようこそ。<br>コミュニティの活動やサーバーの導入方法など、さまざまな情報を発信しています。</p>
+      <div class="cta-buttons">
+        <a href="guides/sumesaba-guide.html" class="btn btn-primary">導入ガイドを見る</a>
+        <a href="members/sumesaba-members.html" class="btn btn-secondary">参加者一覧を見る</a>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
