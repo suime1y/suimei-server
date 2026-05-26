@@ -541,6 +541,19 @@ body::before {
 }
 
 /* SNSアイコンのサイズ指定 */
+.member-link-instagram {
+  background: rgba(214, 41, 118, 0.08);
+  border: 1px solid rgba(214, 41, 118, 0.22);
+  color: #f9a8d4;
+}
+
+.member-link-instagram:hover {
+  background: rgba(214, 41, 118, 0.18);
+  border-color: rgba(214, 41, 118, 0.42);
+  box-shadow: 0 4px 12px rgba(214, 41, 118, 0.2);
+  transform: translateY(-1px);
+}
+
 .member-link-icon {
   width: 16px;
   height: 16px;
