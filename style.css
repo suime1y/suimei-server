@@ -554,6 +554,37 @@ body::before {
   transform: translateY(-1px);
 }
 
+.member-link-twitcasting,
+.member-links a[href*="twitcasting.tv"] {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+  background: rgba(0, 163, 255, 0.08);
+  border: 1px solid rgba(0, 163, 255, 0.24);
+  color: #7dd3fc;
+  transition: all 0.2s ease-in-out;
+}
+
+.member-link-twitcasting:hover,
+.member-links a[href*="twitcasting.tv"]:hover {
+  background: rgba(0, 163, 255, 0.18);
+  border-color: rgba(0, 163, 255, 0.44);
+  box-shadow: 0 4px 12px rgba(0, 163, 255, 0.2);
+  transform: translateY(-1px);
+}
+
+.member-link-twitcasting .member-link-icon,
+.member-links a[href*="twitcasting.tv"] .member-link-icon {
+  width: 16px;
+  height: 16px;
+  display: block;
+}
+
 .member-link-icon {
   width: 16px;
   height: 16px;
