@@ -1,0 +1,70 @@
+{
+  "live": [
+    {
+      "name": "すめらぎ / Sumeragi",
+      "platform": "Twitch",
+      "channel": "sumesaba_live",
+      "title": "【すめ鯖】新エリア開拓サバイバル配信！巨大水門を作るよ！ #12",
+      "game": "Minecraft",
+      "viewerCount": 24,
+      "startedAt": "2026-05-27T20:00:00+09:00",
+      "thumbnail": "../assets/images/stream-placeholder.svg",
+      "url": "https://www.twitch.tv/sumesaba_live"
+    }
+  ],
+  "archives": [
+    {
+      "name": "すめらぎ / Sumeragi",
+      "platform": "Twitch",
+      "title": "【マイクラ】すめらぎサーバー開拓初日アーカイブ【すめ鯖】",
+      "duration": "2:15:30",
+      "publishedAt": "2026-05-26",
+      "thumbnail": "../assets/images/archive-placeholder.svg",
+      "url": "https://www.twitch.tv/videos/000000000"
+    },
+    {
+      "name": "コメコ / Komeko",
+      "platform": "Twitch",
+      "title": "すめ鯖の地下に超巨大スライムトラップを作る配信【マインクラフト】",
+      "duration": "1:45:12",
+      "publishedAt": "2026-05-25",
+      "thumbnail": "../assets/images/archive-placeholder.svg",
+      "url": "https://www.twitch.tv/videos/000000001"
+    },
+    {
+      "name": "ナルミ / Narumi",
+      "platform": "Twitch",
+      "title": "【すめ鯖】初心者さんのお手伝いと資材集め雑談【マイクラ】",
+      "duration": "3:05:40",
+      "publishedAt": "2026-05-24",
+      "thumbnail": "../assets/images/archive-placeholder.svg",
+      "url": "https://www.twitch.tv/videos/000000002"
+    }
+  ],
+  "members": [
+    {
+      "name": "すめらぎ / Sumeragi",
+      "twitch": "https://www.twitch.tv/sumeragi",
+      "x": "https://x.com/sumeragi",
+      "youtube": "#"
+    },
+    {
+      "name": "ナルミ / Narumi",
+      "twitch": "https://www.twitch.tv/narumi",
+      "x": "https://x.com/narumi",
+      "youtube": "#"
+    },
+    {
+      "name": "コメコ / Komeko",
+      "twitch": "https://www.twitch.tv/komeko",
+      "x": "#",
+      "youtube": "#"
+    },
+    {
+      "name": "サバオ / Sabao",
+      "twitch": "#",
+      "x": "https://x.com/sabao",
+      "youtube": "#"
+    }
+  ]
+}

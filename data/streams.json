@@ -1,0 +1,82 @@
+{
+  "live": [
+    {
+      "name": "\u5f57\u660e",
+      "platform": "Twitch",
+      "channel": "suimei6gou",
+      "title": "\u3059\u3081\u9bd6\u3067\u62e0\u70b9\u3065\u304f\u308a\u3068\u7d20\u6750\u96c6\u3081",
+      "game": "Minecraft",
+      "viewerCount": 24,
+      "startedAt": "2026-05-27T20:00:00+09:00",
+      "url": "https://www.twitch.tv/suimei6gou"
+    },
+    {
+      "name": "kyokenchan",
+      "platform": "Twitch",
+      "channel": "kyoookenchan",
+      "title": "\u5730\u4e0b\u63a2\u7d22\u3068\u65b0\u30a8\u30ea\u30a2\u958b\u62d3",
+      "game": "Minecraft",
+      "viewerCount": 12,
+      "startedAt": "2026-05-27T21:15:00+09:00",
+      "url": "https://www.twitch.tv/kyoookenchan"
+    }
+  ],
+  "archives": [
+    {
+      "name": "\u5f57\u660e",
+      "platform": "Twitch",
+      "title": "\u521d\u671f\u62e0\u70b9\u306e\u6574\u5099\u3068\u8cc7\u6750\u96c6\u3081",
+      "duration": "2:15:30",
+      "publishedAt": "2026-05-26",
+      "url": "https://www.twitch.tv/videos/000000000"
+    },
+    {
+      "name": "momo8071",
+      "platform": "Twitch",
+      "title": "\u3059\u3081\u9bd6\u3067\u307e\u3063\u305f\u308a\u5efa\u7bc9",
+      "duration": "1:45:12",
+      "publishedAt": "2026-05-25",
+      "url": "https://www.twitch.tv/videos/000000001"
+    },
+    {
+      "name": "H1k0uk41Chan",
+      "platform": "Twitch",
+      "title": "\u6751\u3065\u304f\u308a\u3068\u7d20\u6750\u96c6\u3081",
+      "duration": "3:05:40",
+      "publishedAt": "2026-05-24",
+      "url": "https://www.twitch.tv/videos/000000002"
+    }
+  ],
+  "members": [
+    {
+      "name": "\u5f57\u660e",
+      "twitch": "https://www.twitch.tv/suimei6gou",
+      "x": "https://x.com/suime1y",
+      "youtube": ""
+    },
+    {
+      "name": "kyokenchan",
+      "twitch": "https://www.twitch.tv/kyoookenchan",
+      "x": "https://x.com/kyoookenchan",
+      "youtube": ""
+    },
+    {
+      "name": "momo8071",
+      "twitch": "https://www.twitch.tv/puuppupu",
+      "x": "https://x.com/mmch3300",
+      "youtube": ""
+    },
+    {
+      "name": "H1k0uk41Chan",
+      "twitch": "https://www.twitch.tv/heechanttv",
+      "x": "",
+      "youtube": ""
+    },
+    {
+      "name": "sukiyakichan",
+      "twitch": "https://www.twitch.tv/sukiyakichan",
+      "x": "https://x.com/sukiyakichanTTV",
+      "youtube": ""
+    }
+  ]
+}
