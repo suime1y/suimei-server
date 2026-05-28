@@ -1,3 +1,11 @@
 {
-  "items": []
+  "items": [
+    {
+      "image": "https://cdn.discordapp.com/attachments/1509412713003089961/1509528796548567160/image.png?ex=6a1981be&is=6a18303e&hm=36ccf5b42904ccf04fc881387b6ca4d4697ef3de06bee378933d652a1349e309&",
+      "title": "テスト写真",
+      "author": "彗明(配信用)",
+      "description": "表示テスト",
+      "note": "bot連携確認"
+    }
+  ]
 }
