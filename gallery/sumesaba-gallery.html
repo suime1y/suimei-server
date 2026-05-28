@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>写真置き場 - すめ鯖 Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+  <script src="../scripts/gallery.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="site-logo" href="../index.html">すめ鯖 Portal</a>
+    <nav class="site-nav">
+      <a href="../index.html" class="nav-link">TOP</a>
+      <a href="../members/sumesaba-members.html" class="nav-link">参加者一覧</a>
+      <a href="../guides/sumesaba-guide.html" class="nav-link">導入ガイド</a>
+      <a href="../join/sumesaba-join.html" class="nav-link">参加希望の方へ</a>
+      <a href="../streams/sumesaba-streams.html" class="nav-link">配信・アーカイブ</a>
+      <a href="sumesaba-gallery.html" class="nav-link">写真置き場</a>
+    </nav>
+  </header>
+
+  <main class="gallery-main">
+    <section class="gallery-hero">
+      <p class="streams-kicker">Gallery</p>
+      <h1 class="hero-title">写真置き場</h1>
+      <p class="hero-subtitle">
+        すめ鯖で作られた建築物や、サーバー内の思い出をまとめています。
+      </p>
+    </section>
+
+    <section class="gallery-section" aria-labelledby="about-gallery-title">
+      <div class="section-header-block">
+        <p class="section-kicker">About</p>
+        <h2 id="about-gallery-title" class="section-heading">写真置き場について</h2>
+      </div>
+      <p class="join-text">
+        すめ鯖内で作られた建築物、イベントの様子、きれいな景色、参加者同士の思い出などを掲載するページです。
+        掲載したいスクリーンショットがある場合は、運営へ画像と簡単な説明を送ってください。
+      </p>
+    </section>
+
+    <section class="gallery-section" aria-labelledby="gallery-list-title">
+      <div class="section-header-block">
+        <p class="section-kicker">Screenshots</p>
+        <h2 id="gallery-list-title" class="section-heading">ギャラリー一覧</h2>
+      </div>
+      <div id="gallery-status" class="gallery-state" aria-live="polite">写真情報を読み込んでいます。</div>
+      <div id="gallery-grid" class="gallery-grid" aria-live="polite"></div>
+    </section>
+
+    <section class="gallery-section gallery-submit-guide" aria-labelledby="gallery-submit-title">
+      <div class="section-header-block">
+        <p class="section-kicker">Submit</p>
+        <h2 id="gallery-submit-title" class="section-heading">画像を掲載したい方へ</h2>
+      </div>
+      <p class="join-text">
+        掲載したいスクリーンショットがある場合は、画像と以下の情報を添えて運営へ送ってください。
+      </p>
+      <ul class="gallery-info-list">
+        <li>スクリーンショット画像</li>
+        <li>タイトル</li>
+        <li>投稿者名</li>
+        <li>簡単な説明</li>
+        <li>撮影場所や補足情報</li>
+      </ul>
+      <p class="join-text">
+        他の参加者が写っている画像や、他人の建築物が大きく写っている画像は、必要に応じて事前に確認を取ってください。
+        不適切な内容や、トラブルにつながる可能性がある画像は掲載しない場合があります。
+      </p>
+    </section>
+
+
+  </main>
+
+  <div id="gallery-modal" class="gallery-modal" aria-hidden="true" role="dialog" aria-label="画像の拡大表示">
+    <button type="button" class="gallery-modal-close" aria-label="閉じる">&times;</button>
+    <img id="gallery-modal-image" class="gallery-modal-image" src="" alt="">
+    <div id="gallery-modal-caption" class="gallery-modal-caption"></div>
+  </div>
+</body>
+</html>
