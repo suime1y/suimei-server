@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitch認証中 - すめ鯖 Portal</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+  <main class="streams-main twitch-callback-main">
+    <section class="streams-hero">
+      <p class="streams-kicker">Twitch OAuth</p>
+      <h1 class="hero-title">Twitch認証中</h1>
+      <p id="callback-message" class="hero-subtitle">認証情報を確認しています...</p>
+    </section>
+  </main>
 
+  <script>
+    const tokenKey = "sumesaba_twitch_access_token";
+    const stateKey = "sumesaba_twitch_oauth_state";
+    const message = document.querySelector("#callback-message");
+    const params = new URLSearchParams(window.location.hash.slice(1) || window.location.search.slice(1));
+    const accessToken = params.get("access_token");
+    const returnedState = params.get("state");
+    const storedState = localStorage.getItem(stateKey);
+    const error = params.get("error_description") || params.get("error");
+
+    if (accessToken && storedState && returnedState === storedState) {
+      localStorage.setItem(tokenKey, accessToken);
+      localStorage.removeItem(stateKey);
+      window.location.replace("sumesaba-streams.html");
+    } else if (accessToken) {
+      localStorage.removeItem(stateKey);
+      message.textContent = "Twitch認証の確認に失敗しました。もう一度認証してください。";
+    } else {
+      localStorage.removeItem(stateKey);
+      message.textContent = error
+        ? `Twitch認証に失敗しました: ${error}`
+        : "Twitch認証情報を取得できませんでした。もう一度認証してください。";
+    }
+  </script>
+</body>
+</html>
